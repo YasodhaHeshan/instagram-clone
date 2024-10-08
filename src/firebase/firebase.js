@@ -6,6 +6,7 @@ import dotenv from 'dotenv';
 
 // Load environment variables from .env file
 dotenv.config();
+console.log(firebaseConfig);
 
 const firebaseConfig = {
     apiKey: process.env.REACT_APP_API_KEY,
